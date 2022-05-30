@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-27T18:08:59 IST" name="Default suite" finished-at="2022-05-27T18:09:10 IST" duration-ms="11606">
+    <groups>
+    </groups>
+    <test started-at="2022-05-27T18:08:59 IST" name="Default test" finished-at="2022-05-27T18:09:10 IST" duration-ms="11606">
+      <class name="com.learnautomation.testcases.LoginTestCRM">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@73e9cf30]" started-at="2022-05-27T18:08:59 IST" name="setUpSuite" finished-at="2022-05-27T18:08:59 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@73e9cf30]" started-at="2022-05-27T18:08:59 IST" name="startbrowser" finished-at="2022-05-27T18:09:09 IST" duration-ms="9814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="login()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@73e9cf30]" started-at="2022-05-27T18:09:09 IST" name="login" finished-at="2022-05-27T18:09:10 IST" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@73e9cf30]" started-at="2022-05-27T18:09:10 IST" name="tearDownMethod" finished-at="2022-05-27T18:09:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTestCRM.login()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@73e9cf30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@73e9cf30]" started-at="2022-05-27T18:09:10 IST" name="closeBrowser" finished-at="2022-05-27T18:09:10 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.learnautomation.testcases.LoginTestCRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
