@@ -9,6 +9,7 @@ public class LoginPage {
 	
 	WebDriver driver;
 	
+	//This is the constructor
 	void LoginPage(WebDriver ldriver) {
 		
 		this.driver=ldriver;
