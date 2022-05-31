@@ -32,7 +32,12 @@ public class BaseClass {
 	@AfterClass
 	public void closeBrowser() {
 		
-		BrowserFactory.quitBrowser(driver);
+		try {
+			BrowserFactory.quitBrowser(driver);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	@AfterMethod

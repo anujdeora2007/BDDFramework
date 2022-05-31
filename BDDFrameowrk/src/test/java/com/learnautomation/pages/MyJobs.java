@@ -20,11 +20,11 @@ WebDriver driver;
 	@FindBy(xpath="//*[contains(text(),'Find jobs')]") WebElement Applicns;
 	
 	
-//	public void ApplicationsVerify() {		
-//		
-//		Actions action = new Actions(driver);
-//		action.moveToElement(Applicns).perform();
-//		System.out.println(Applicns.getTagName());
-//				
-//	}
+	public void ApplicationsVerify() {		
+		
+		Actions action = new Actions(driver);
+		action.moveToElement(Applicns).perform();
+		System.out.println(Applicns.getTagName());
+				
+	}
 }
