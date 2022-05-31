@@ -17,7 +17,7 @@ WebDriver driver;
 		this.driver = Adriver;
 		
 	}
-	@FindBy(xpath="//*[contains(text(),'Find jobs')]") WebElement Applicns;
+	@FindBy(xpath="(//*[contains(text(),'Find jobs')])[2]") WebElement Applicns;
 	
 	
 	public void ApplicationsVerify() {		
