@@ -37,7 +37,8 @@ public class BrowserFactory {
 		
 		return driver;
 	}
-	public static void quitBrowser(WebDriver driver) {
+	public static void quitBrowser(WebDriver driver) throws Exception {
+		Thread.sleep(5000);
 		 driver.quit();
 	}
 	

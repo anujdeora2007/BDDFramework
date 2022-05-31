@@ -36,6 +36,7 @@ public class LoginTestCRM extends BaseClass{
 		
 	}
 	
+	@Test
 	public void myJobsPage() {
 		
 		MyJobs myjobs = PageFactory.initElements(driver, MyJobs.class);
@@ -43,3 +44,4 @@ public class LoginTestCRM extends BaseClass{
 		
 	}
 }
+
