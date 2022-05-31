@@ -12,7 +12,7 @@ public class MyJobs {
 
 WebDriver driver;
 	
-	public void Applications(WebDriver Adriver) {
+	public void Myjobs(WebDriver Adriver) {
 		
 		this.driver = Adriver;
 		
