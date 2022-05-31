@@ -22,9 +22,9 @@ WebDriver driver;
 	
 	public void ApplicationsVerify() {		
 		
-		Actions action = new Actions(driver);
-		action.moveToElement(Applicns).perform();
-		System.out.println(Applicns.getTagName());
+		Applicns.click();
+		System.out.println("In Applications Verify method");
+		
 				
 	}
 }
